@@ -1,0 +1,104 @@
+# a method that returns the sum of two integers
+  
+  CASUAL
+  
+  given two integers 
+  -write a method that returns the sum.
+  -when method is invoked, return the sum of two integers provided
+    
+  FORMAL
+  START
+  GET two integers from the user to add
+    
+  WHILE addition = two integers 
+   perform '+' on two integers
+      
+  PRINT addition
+  END
+  
+
+# a method that takes an array of strings, and returns a string that is all those strings concatenated together
+
+  CASUAL 
+   
+  given an array of strings 
+  -create a method that returns a string with all the strings in the array concatenated together. 
+  
+  FORMAL
+  
+  START
+  GET array of strings from user
+    
+  WHILE string_merge = READ array of strings and add it together to a single string
+    
+  PRINT string_merge
+  END
+    
+
+# a method that takes an array of integers, and returns a new array with every other element from the original array, starting with the first element. 
+  For instance:
+    every_other([1,4,7,2,5]) # => [1,7,5]
+    
+  CASUAL
+  
+  given an array of integers 
+  -create a method that will return a new array with every other element from the original array, starting from the first element.
+  
+  FORMAL
+  
+  START
+  GET array of integers from user 
+  
+  WHILE new array = READ array of integers 
+        IF array index is odd 
+          adds value to the new array 
+        ELSE 
+          value is skipped
+  
+  PRINT new array
+  END
+ 
+# a method that determines the index of the 3rd occurrence of a given character in a string. 
+  For instance, if the given character is 'x' and the string is 'axbxcdxex', the method should return 6 (the index of the 3rd 'x').
+  If the given character does not occur at least 3 times, return nil.
+  
+  CASUAL 
+  given a string 
+  -write a method that determines the index of the 3rd occurence of a character in that string
+  -if the character does not occur at least 3 times, return nil
+  
+  FORMAL
+  START
+  GET string from user AND character 
+  
+  WHILE 3rd_character = READ string_from_user AND character
+    IF character = occurs 3 times in the string_from_user
+      identify the index of the third character
+    ELSE
+      nil
+  
+  PRINTS index of the 3rd occurence of a character in that string
+  END
+  
+  
+# a method that takes two arrays of numbers and returns the result of merging the arrays. 
+  The elements of the first array should become the elements at the even indexes of the returned array, while the elements of the second array should become the elements at the odd indexes. 
+  For instance:
+    merge([1, 2, 3], [4, 5, 6]) # => [1, 4, 2, 5, 3, 6]
+    
+  CASUAL
+  
+  given two arrays of numbers 
+  -write a method that returns the result of merging the arrays together.
+  
+  FORMAL
+  START
+  GET two arrays = 1 and 2 
+  
+  WHILE merge array = READ arrays 1 and 2
+    SET Array 1 = odd numbers 
+    SET Array 2 = even numbers 
+     new array = array 1 and array 2 
+  
+  PRINT new array 
+  END

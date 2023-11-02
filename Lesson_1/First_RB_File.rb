@@ -1,12 +1,6 @@
-NUMBERS = [1, 2, 3]
-ar = [1, 2, 3]
+def string_lengths(sentence)
+  strings = sentence.split
 
-def test
- puts NUMBERS.inspect
- puts ar.inspect
+  strings.map { |chars| chars.length }
 end
-
-test
-
-# => [1, 2, 3]
-# => NameError: undefined local variable or method `arr'
+puts string_lengths("To be or not be")
